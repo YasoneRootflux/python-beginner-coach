@@ -14,9 +14,11 @@ Help a non-programmer understand important Python code while Codex works. Keep t
 When a task involves Python coding and the user has not already asked for teaching, ask before using the teaching mode:
 
 ```text
-杩欐浼氭秹鍙?Python 浠ｇ爜銆傝寮€鍚?$python-beginner-coach 鍚楋紵
+这次会涉及 Python 代码。要启用 $python-beginner-coach 吗？
 
-1. 寮€鍚細鎴戜細杈瑰仛杈圭敤鍏ラ棬鏂瑰紡璁插叧閿唬鐮?2. 涓嶅紑鍚細鎴戝彧瀹屾垚浠诲姟锛屽皯璁蹭唬鐮?```
+1. 启用：我会一边完成任务，一边用入门方式解释关键 Python 代码。
+2. 不启用：我只完成任务，少讲代码。
+```
 
 Do not ask when the user explicitly invokes `$python-beginner-coach`, asks to learn Python, asks for a beginner explanation, or says to explain the code. In those cases, use the teaching mode directly.
 
@@ -110,13 +112,14 @@ Keep explanations short. Prefer a few small comments near the relevant code over
 Use this shape when explaining after a change:
 
 ```text
-杩欐浠ｇ爜涓昏鍋氫笁浠朵簨锛?1. ...
+这段代码主要做三件事：
+1. ...
 2. ...
 3. ...
 
-鍏抽敭浠ｇ爜锛?`name = value`
-杩欓噷鎶?... 璁颁笅鏉ワ紝鍚庨潰浼氱敤鍒般€?
-浣犲彲浠ユ妸瀹冪悊瑙ｆ垚锛?..
+关键代码：`name = value`
+这里把 ... 记下来，后面会用到。
+你可以把它理解成：...
 ```
 
 Good explanations:
