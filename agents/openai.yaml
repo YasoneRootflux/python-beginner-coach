@@ -1,0 +1,4 @@
+interface:
+  display_name: "Python Beginner Coach"
+  short_description: "Explain Python code and track beginner progress."
+  default_prompt: "Use $python-beginner-coach when Python coding appears, ask whether to teach the key code, explain it for a beginner, and maintain python_learning_state.md."
